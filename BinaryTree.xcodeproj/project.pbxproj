@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DA1510861EE2D576006B2E11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA1510851EE2D576006B2E11 /* main.cpp */; };
+		DA15108E1EE2D58C006B2E11 /* BT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15108C1EE2D58C006B2E11 /* BT.cpp */; };
+		DA91AD0B1EF2943C007C4BDF /* BTNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA91AD091EF2943C007C4BDF /* BTNode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		DA1510821EE2D576006B2E11 /* BinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1510851EE2D576006B2E11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA15108C1EE2D58C006B2E11 /* BT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BT.cpp; sourceTree = "<group>"; };
+		DA15108D1EE2D58C006B2E11 /* BT.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BT.hpp; sourceTree = "<group>"; };
+		DA91AD091EF2943C007C4BDF /* BTNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BTNode.cpp; sourceTree = "<group>"; };
+		DA91AD0A1EF2943C007C4BDF /* BTNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BTNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				DA1510851EE2D576006B2E11 /* main.cpp */,
+				DA15108C1EE2D58C006B2E11 /* BT.cpp */,
+				DA15108D1EE2D58C006B2E11 /* BT.hpp */,
+				DA91AD091EF2943C007C4BDF /* BTNode.cpp */,
+				DA91AD0A1EF2943C007C4BDF /* BTNode.hpp */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1510861EE2D576006B2E11 /* main.cpp in Sources */,
+				DA15108E1EE2D58C006B2E11 /* BT.cpp in Sources */,
+				DA91AD0B1EF2943C007C4BDF /* BTNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +260,7 @@
 				DA15108B1EE2D576006B2E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
